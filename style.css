@@ -1,0 +1,64 @@
+body .container {
+  width: 80%;
+  height: 100vh;
+}
+body .container .row-container {
+  height: 100%;
+}
+body .container .row-container .col .row-image {
+  height: 33.333%;
+}
+body .container .row-container .col .row-image .image {
+  background-position: center;
+  background-size: cover;
+}
+body .container .row-container .col .title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+body .container .row-container .col h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+body .container .row-container .col p {
+  width: 70%;
+}
+body .container .row-container .col button {
+  width: 180px;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: aquamarine;
+  font-weight: 500;
+  border: none;
+}
+
+.text-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img1 {
+  background-image: url(./imgs/1.jpg);
+}
+
+.img2 {
+  background-image: url(./imgs/2.jpg);
+}
+
+.img3 {
+  background-image: url(./imgs/fe2467310eefa5fc864cd6ab8ce88531.jpg);
+}
+
+.img4 {
+  background-image: url(./imgs/technology_default_2.jpg);
+}
+
+.img5 {
+  background-image: url(./imgs/Untitled4.jpg);
+}
+
+.img6 {
+  background-image: url(./imgs/Untitled5.jpg);
+}/*# sourceMappingURL=style.css.map */
